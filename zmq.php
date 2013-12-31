@@ -831,18 +831,18 @@ class ZMQException extends Exception
 {
 }
 
-class ZMQContextException extends Exception
+class ZMQContextException extends ZMQException
 {
 }
 
-class ZMQSocketException extends Exception
+class ZMQSocketException extends ZMQException
 {
 }
 
-class ZMQPollException extends Exception
+class ZMQPollException extends ZMQException
 {
 }
 
-class ZMQDeviceException extends Exception
+class ZMQDeviceException extends ZMQException
 {
 }
